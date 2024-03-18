@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Business Landing page</title>
+        <!-- raw css link -->
+        <link rel="stylesheet" href="style.css">
+        <!-- bootstrap css cdn link -->
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+            integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+            crossorigin="anonymous">
+        <!-- font awesome cdn link -->
+        <script src="https://kit.fontawesome.com/cc76e3cc3d.js"
+            crossorigin="anonymous"></script>
+        <!-- tailwind cdn link -->
+        <script src="https://cdn.tailwindcss.com"></script>
+        <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            clifford: '#da373d',
+          }
+        }
+      }
+    }
+  </script>
+    </head>
+    <body>
+        <header class="header shadow pb-5">
+            <!-- header top section -->
+            <div class="flex align-items-center justify-content-between mx-10">
+                <h1 class="text-5xl">Technology</h1>
+                <div class="flex align-items-center">
+                    <p class="m-lg-5"><i class="fa-solid fa-location-dot"></i>
+                        Joypurhat, Rajshahi, Bangladesh - 5941</p>
+                    <p><i class="fa-solid fa-phone"></i> 01965240019</p>
+                </div>
+            </div>
+            <!-- header menubar section -->
+            <div class="flex align-items-center">
+                <ul class="menuBar flex me-[32%]">
+                    <li><a href="">Home</a></li>
+                    <li><a href="">Shop</a></li>
+                    <li><a href="">About Us</a></li>
+                    <li><a href="">Service</a></li>
+                    <li><a href="">Contact</a></li>
+                </ul>
+
+                <!-- search box section -->
+                <div class="me-[4%]">
+                    <input type="search" name id
+                        class="border w-[400px] position-relative"> <i
+                        class="fa-solid fa-magnifying-glass bg-[gray] position-absolute py-[5px] px-[5px]"></i>
+                </div>
+                <!-- shopping cart section -->
+                <div class="me-[2%]">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                </div>
+                <!-- user define section -->
+                <div>
+                    <i class="fa-solid fa-user"></i>
+                </div>
+            </div>
+        </header>
+
+        <main class="mt-5">
+            <!-- this is header of body introduction part -->
+            <div class="flex justify-content-between align-items-center mx-10">
+                <!-- text part -->
+                <div class="w-[600px]">
+                    <h1 class="text-capitalize text-4xl">shop in-store and
+                        receive 10%
+                        off</h1>
+                    <p class="my-3">Whether it's a home improvement project or a
+                        personal
+                        one, we have the tools to get the job done.</p>
+                    <button class="bg-[gray] py-3 px-5 text-white">Shop Now <i
+                            class="fa-solid fa-arrow-right"></i></button>
+                </div>
+                <!-- image part -->
+                <div class="flex">
+                    <div>
+                        <img
+                            class="w-[300px] rounded-4 shadow origin-center rotate-[10deg]"
+                            src="image/computer.jpeg" alt>
+                        <img
+                            class="w-[300px] rounded-4 shadow origin-top-left rotate-[50deg] mb-[150px]"
+                            src="image/Digital.jpg" alt>
+                    </div>
+                    <img
+                        class="w-[100px] h-[100px] position-absolute top-[65%] right-[28%]"
+                        src="image/tech.png" alt>
+                    <div class="ml-5">
+                        <img
+                            class="w-[300px] rounded-4 shadow ms-5 my-[50px] origin-bottom -rotate-12 "
+                            src="image/mobile.jpeg" alt>
+                        <img
+                            class="w-[300px] rounded-4 shadow mb-[200px] origin-left rotate-45 "
+                            src="image/watch.jpg" alt>
+                    </div>
+                </div>
+            </div>
+            <!-- multiple company logo design -->
+            <div class="d-grid grid-cols-6 gap-5 mx-10 ">
+                <img class="w-[200px] h-[100px]"
+                    src="image/company_logo/company.png" alt>
+                <img class="w-[200px] h-[100px]"
+                    src="image/company_logo/facebook.png" alt>
+                <img class="w-[200px] h-[100px]"
+                    src="image/company_logo/google.png" alt>
+                <img class="w-[200px] h-[100px]"
+                    src="image/company_logo/linkedin.png" alt>
+                <img class="w-[200px] h-[100px]"
+                    src="image/company_logo/payoneer.png" alt>
+                <img class="w-[200px] h-[100px]"
+                    src="image/company_logo/paypal.png" alt>
+                <img class="w-[200px] h-[100px]"
+                    src="image/company_logo/twitter.png" alt>
+            </div>
+            <!-- shop welcome page design -->
+            <div class="mx-10 mt-5">
+                <h1 class="text-3xl text-center">Welcome to our product
+                    shop!</h1>
+                <div
+                    class="flex align-content-between align-items-center gap-5 ">
+                    <img class="w-[500px] my-5 me-[20%]"
+                        src="image/Shop/supper_shop.jpg" alt>
+                    <div class="w-[600px]">
+                        <p>In this shop, we have the biggest selection of
+                            electronics products. You may choose your needed
+                            product that you want. You have biggest opportunity
+                            for purchase your needed product. That's why our
+                            shop is top listed site in the world. <br> Thank
+                            you!</p>
+                        <button
+                            class="bg-[gray] py-3 px-5 text-white mt-3">Learn
+                            More <i
+                                class="fa-solid fa-arrow-right ms-3"></i></button>
+                    </div>
+                </div>
+            </div>
+            <!-- shopping card design -->
+            <div class="my-5">
+                <h1 class="text-center text-5xl my-5">Introduce with our products</h1>
+                <!-- product section -->
+                <div class="d-grid grid-cols-4 gap-5 mx-10">
+
+                    <div class="card" style="width: 18rem;">
+                        <img
+                            src="image/Products/dell-inspiron-15-3520-review.jpg"
+                            class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title font-bold">Dell Inspiron
+                                3520</h5>
+                            <p class="card-text pb-3">Some quick example text to
+                                build on the card title and make up the bulk of
+                                the card's content.</p>
+                            <p>4.6 <span class="text-[gold]"><i
+                                        class="fa-solid fa-star"></i><i
+                                        class="fa-solid fa-star"></i><i
+                                        class="fa-solid fa-star"></i><i
+                                        class="fa-solid fa-star"></i><i
+                                        class="fa-solid fa-star-half-stroke"></i></span></p>
+                            <p class="font-semibold py-3">Price: 900$</p>
+                            <a href="#" class="btn btn-primary">buy Now</a>
+                        </div>
+                    </div>
+                    <div class="card" style="width: 18rem;">
+                        <img src="image/Products/realme-c35-2.jpg"
+                            class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title font-bold">Realme C35</h5>
+                            <p class="card-text pb-3">Some quick example text to
+                                build on the card title and make up the bulk of
+                                the card's content.</p>
+                            <p>4.8 <span class="text-[gold]"><i
+                                        class="fa-solid fa-star"></i><i
+                                        class="fa-solid fa-star"></i><i
+                                        class="fa-solid fa-star"></i><i
+                                        class="fa-solid fa-star"></i><i
+                                        class="fa-solid fa-star-half-stroke"></i></span></p>
+                            <p class="font-semibold py-3">Price: 250$</p>
+                            <a href="#" class="btn btn-primary">buy Now</a>
+                        </div>
+                    </div>
+                    <div class="card" style="width: 18rem;">
+                        <img src="image/Products/smart_watch.jpg"
+                            class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title font-bold">Smart Watch</h5>
+                            <p class="card-text pb-3">Some quick example text to
+                                build on the card title and make up the bulk of
+                                the card's content.</p>
+                            <p>4 <span class="text-[gold]"><i
+                                        class="fa-solid fa-star"></i><i
+                                        class="fa-solid fa-star"></i><i
+                                        class="fa-solid fa-star"></i><i
+                                        class="fa-solid fa-star"></i><i
+                                        class="fa-solid fa-star-half-stroke"></i></span></p>
+                            <p class="font-semibold py-3">Price: 5$</p>
+                            <a href="#" class="btn btn-primary">buy Now</a>
+                        </div>
+                    </div>
+                    <div class="card" style="width: 18rem;">
+                        <img src="image/Products/bracelete.jpg"
+                            class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title font-bold">Bracelete</h5>
+                            <p class="card-text pb-3">Some quick example text to
+                                build on the card title and make up the bulk of
+                                the card's content.</p>
+                            <p>5 <span class="text-[gold]"><i
+                                        class="fa-solid fa-star"></i><i
+                                        class="fa-solid fa-star"></i><i
+                                        class="fa-solid fa-star"></i><i
+                                        class="fa-solid fa-star"></i><i
+                                        class="fa-solid fa-star"></i></span></p>
+                            <p class="font-semibold py-3">Price: 2$</p>
+                            <a href="#" class="btn btn-primary">buy Now</a>
+                        </div>
+                    </div>
+                    <div class="card" style="width: 18rem;">
+                        <img src="image/Products/box.jpeg" class="card-img-top"
+                            alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title font-bold">Lenovo sound
+                                box</h5>
+                            <p class="card-text pb-3">Some quick example text to
+                                build on the card title and make up the bulk of
+                                the card's content.</p>
+                            <p>4 <span class="text-[gold]"><i
+                                        class="fa-solid fa-star"></i><i
+                                        class="fa-solid fa-star"></i><i
+                                        class="fa-solid fa-star"></i><i
+                                        class="fa-solid fa-star-half-stroke"></i><i
+                                        class="fa-regular fa-star"></i></span></p>
+                            <p class="font-semibold py-3">Price: 50$</p>
+                            <a href="#" class="btn btn-primary">buy Now</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Our shop overview section -->
+            <div class="my-5">
+                <!-- Our shop overview shop text section -->
+                <div
+                    class="color position-relative h-14 bg-gradient-to-r from-purple-500 to-pink-500 w-[40%] h-[10vh] mx-auto ">
+                    <div
+                        class="position-absolute bg-[url('/image/Products/watch.jpeg')] w-100 h-[10vh] top-0 opacity-25 bg-no-repeat bg-center bg-cover">
+                    </div>
+                    <div
+                        class="text_section position-absolute text-white left-[25%] top-[25%]">
+                        <h1 class="text-3xl">Our Products Overview</h1>
+                    </div>
+                </div>
+                <!-- Our shop overview products section -->
+                <div class="my-5">
+                    <div>
+                        <div id="carouselExampleRide" class="carousel slide w-50 h-[50vh] mx-auto "
+                            data-bs-ride="true">
+                            <div class="carousel-inner">
+                                <div class="carousel-item active h-[40vh]">
+                                    <img src="image/Product_Overview/home_decorator.jpeg" class="d-block bg-no-repate bg-center bg-cover"
+                                        alt="...">
+                                </div>
+                                <div class="carousel-item h-[40vh]">
+                                    <img src="image/Product_Overview/electronic_shop.jpeg" class="d-block w-100"
+                                        alt="...">
+                                </div>
+                                <div class="carousel-item h-[40vh]">
+                                    <img src="image/Product_Overview/supper_shop.jpeg" class="d-block w-100"
+                                        alt="...">
+                                </div>
+                            </div>
+                            <button class="carousel-control-prev" type="button"
+                                data-bs-target="#carouselExampleRide"
+                                data-bs-slide="prev">
+                                <span class="carousel-control-prev-icon"
+                                    aria-hidden="true"></span>
+                                <span class="visually-hidden">Previous</span>
+                            </button>
+                            <button class="carousel-control-next" type="button"
+                                data-bs-target="#carouselExampleRide"
+                                data-bs-slide="next">
+                                <span class="carousel-control-next-icon"
+                                    aria-hidden="true"></span>
+                                <span class="visually-hidden">Next</span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+        <!-- footer section -->
+        <div class="mt-5 bg-black text-white">
+            <section>
+                <footer class="flex align-items-center gap-[300px] py-[50px] px-[50px]">
+                    <div class="">
+                        <h1 class="text-3xl">Get Tech Service</h1>
+                        <p class="my-2">You may got your expected product service from us. If you want connect with us . You may connect with us by - </p>
+                        <p class="flex gap-3 text-3xl my-3"><a href="https://www.facebook.com/MdRaihanChowdhuryNo.99?mibextid=ZbWKwL"><i class="fa-brands fa-facebook"></i></a><a href=""><i class="fa-brands fa-twitter"></i></a><a href=""><i class="fa-brands fa-instagram"></i></a><a href=""><i class="fa-brands fa-linkedin"></i></a><a href=""><i class="fa-brands fa-pinterest"></i></a></p>
+                        <p>Just click on this logo</p>
+                    </div>
+                    <div class="flex gap-5 text-center ">
+                        <div class="shadow shadow-[gray] bg-success rounded text-white px-[50px] py-[50px]">
+                            <i class="fa-solid fa-globe"></i>
+                            <p>www.google.com</p>
+                        </div>
+                        <div class="shadow shadow-[gray] bg-success rounded text-white px-[50px] py-[50px]">
+                            <i class="fa-solid fa-message"></i>
+                            <p>www.gmail.com</p>
+                        </div>
+                    </div>
+                </footer>
+            </section>
+        </div>
+
+        <script
+            src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+            crossorigin="anonymous"></script>
+    </body>
+</html>
